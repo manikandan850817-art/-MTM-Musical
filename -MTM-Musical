@@ -1,0 +1,102 @@
+Create a complete Android music AI application named “MTM MusicAI”.
+
+App Goal
+
+Build a modern AI-powered music creation app where users can create songs using text prompts.
+
+Main Features
+
+1. Splash Screen
+   
+   - MTM MusicAI logo
+   - Premium dark futuristic design
+   - Smooth animation
+
+2. Home Screen
+   
+   - “Create Music” button
+   - “My Songs” button
+   - Recent creations
+   - Modern music-player style UI
+
+3. AI Music Creation
+   
+   - Text prompt input
+   - Song title input
+   - Genre selection
+   - Mood selection
+   - Instrument selection
+   - Vocal style selection
+   - “Generate Music” button
+   - Loading/progress screen
+
+4. Music Player
+   
+   - Play/pause
+   - Seek bar
+   - Song title
+   - Duration
+   - Volume control
+   - Add to My Songs
+
+5. My Songs
+   
+   - Display generated songs
+   - Play songs
+   - Delete songs
+   - Rename songs
+
+6. User Interface
+   
+   - Premium black/dark theme
+   - Blue and purple neon accents
+   - Rounded cards
+   - Smooth animations
+   - Responsive Android layout
+   - Clean and beginner-friendly navigation
+
+Technical Requirements
+
+- Use Android Studio
+- Use Kotlin
+- Use Jetpack Compose
+- Use Material 3
+- Use MVVM architecture
+- Use Navigation Compose
+- Use a proper local database for saved songs
+- Keep API keys out of the source code
+- Create a clean project structure
+- Add comments explaining important code
+
+AI Music API
+
+Create a clean API/service layer for AI music generation.
+
+Do NOT hard-code a fake API key.
+
+Use a configurable API interface so a real music-generation provider can be connected later.
+
+If no API is configured, provide a clearly labeled demo/mock mode so the application can still be tested without pretending that a real AI song was generated.
+
+Deliverables
+
+Generate all required Android project files and source code.
+
+Make sure the project:
+
+- Builds without errors
+- Has correct Gradle configuration
+- Has a working MainActivity
+- Has working navigation
+- Has all required Compose screens
+- Has sample/demo data
+- Can be opened in Android Studio
+- Can eventually be built into an APK
+
+At the end, provide exact instructions for:
+
+1. Opening the project
+2. Syncing Gradle
+3. Running the app
+4. Connecting a real AI music API
+5. Building the APK
